@@ -1,0 +1,113 @@
+
+HTML - Types of tags - Part 1:
+=====  =============
+It is important to know how html tags behave on the browser. 
+
+That is how they display content on the browser and how much amount of space they occupy on the browser. 
+
+This knowledge will help you when you start laying out your content on the browser.
+
+html paired tag : 
+================
+If any html tag has a separate opening and a separate closing tag,then such html tag is known as paired tag.
+
+Ex: b, u, i, div, p, etc
+
+html unpaired tag: 
+==== =============
+If any html tag has both opening and closing tag in a single tag,then such html tag is known as unpaired tag.
+
+Ex: br, hr, img, etc.
+
+html block level tag: 
+====  ==============
+If an html tag always displays the content on the new fresh line and occupies the complete available width of its parent tag, then such html tags are known as block level tags.
+
+Ex: all header tags (<h1>....<h6>), <p>, <table>, <ol><ul><li>, <div> etc.
+
+
+
+
+html inline level tag: 
+=========== ==========
+If an html tag occupies the exact amount of space required to display the content on the browser, and will not move the content to the new line, then such html tag is known as inline tag. (i.e. It puts the content on the same line and wont take any extra space on the browser.)
+
+
+
+Ex: <b>, <i>, <font>, <span>, <a> , <img>, <input> etc.
+
+
+
+HTML Block and Inline Elements
+=========      ==============
+
+Every HTML element has a default display value, 
+depending on what type of element it is.
+
+There are two display values: 
+
+1. block elements.
+2. inline elements
+
+
+1 ) Inline element :
+==============
+---->> Basically, an inline element does not cause a line break (start on a new line) and        does not take up the full width of a page, only the space bounded by its opening          and closing tag. 
+
+---->> It is usually used within other HTML elements.
+
+Other examples of inline elements are:
+
+<a> tag
+<img> tag
+<span> tag
+<b> tag
+<i> tag
+<button>
+<input>
+etc...
+
+
+
+ 2 ) Block-level  element:
+    ====================
+A block-level element always starts on a new line and takes up the full width of a page, from left to right. A block-level element can take up one line or multiple lines and has a line break before and after the element.
+
+Other examples of the block-level tag are:
+
+<h1> to <h6> tags
+<ol> ,
+<ul> ,
+<li>
+<p>
+<table>
+<tr>
+<td>
+<th>
+etc....
+
+
+---->> Identify  response if one tag  available inside another tag :
+ 
+1. one block level element inside another block level element
+
+    <h1>Hello <h4> Hi </h4> Srinivas </h1>
+
+
+2. one inline level element inside another inline level element
+
+      <b> Hello <i> Hi </i> Srinivas </b>
+
+
+3. one inline level element inside another block level element
+
+      <h1> Hello <b> Hi </b> Srinivas </h1>
+
+
+4. one block level element inside another inline level element
+
+      <b> Hello <h1> Hi </h1> Srinivas </b>
+
+
+
+
