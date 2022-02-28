@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        form{
+            background-color: darkcyan;
+            width: 40%;
+            padding: 30px;
+        }
+        input{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+         <h1>Welcome to Calculator App</h1>
+        <form method="get" action="/output/">
+            {% csrf_token %}
+            <label>First Number :</label>
+            <input type="text" name="fno"> <br><br>
+
+             <label>Second Number :</label>
+            <input type="text" name="sno"> <br><br>
+
+            <input type="submit" value="Add" name="mybtn">
+            <input type="submit" value="Sub" name="mybtn">
+            <input type="submit" value="Mul" name="mybtn">
+            <input type="submit" value="Div" name="mybtn">
+
+        </form>
+    </center>
+</body>
+</html>
